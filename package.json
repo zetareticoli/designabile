@@ -1,0 +1,23 @@
+{
+  "name": "designabile",
+  "version": "1.0.0",
+  "description": "Francesco Improta's website and blog",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zetareticoli/designabile.git"
+  },
+  "author": "zetareticoli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zetareticoli/designabile/issues"
+  },
+  "homepage": "https://github.com/zetareticoli/designabile#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0"
+  }
+}
