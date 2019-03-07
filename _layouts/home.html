@@ -5,28 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-  <header>
-    <h1 class="c-logo">Designabile</h1>
-    <nav class="c-nav">
-      <ul class="o-list u-reset">
-        <li>
-          <a class="c-nav__item" href="">about</a>
-        </li>
-        <li>
-          <a class="c-nav__item" href="">work</a>
-        </li>
-        <li>
-          <a class="c-nav__item" href="">blog</a>
-        </li>
-        <li>
-          <a class="c-nav__item" href="">training</a>
-        </li>
 
-      </ul>
-    </nav>
-  </header>
+  {% include header.html %}
 
   <section>
     <h1>Design web experiences</h1>
@@ -55,5 +38,8 @@
       in collaborating feel free to contact me.
     </p>
   </section>
+
+  {% include footer.html %}
+
 </body>
 </html>
