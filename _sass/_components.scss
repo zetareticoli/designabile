@@ -1,0 +1,14 @@
+
+.c-section {
+  display: flex;
+  flex-flow: column;
+
+  @media screen and (min-width: 600px){
+    flex-flow: row;
+    align-items: center;
+  }
+}
+
+.c-section__item {
+  flex: 0 1 50%;
+}

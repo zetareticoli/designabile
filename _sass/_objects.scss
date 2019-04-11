@@ -1,0 +1,15 @@
+.o-heading {
+  font-size: 3rem;
+
+  @media screen and (min-width: 992px){
+    font-size: 4rem;    
+  }
+}
+
+.o-lead {
+  font-size: 2rem;
+} 
+
+.o-color-primary {
+  color: $color-primary;
+}

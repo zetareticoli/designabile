@@ -1,0 +1,28 @@
+body,
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  border-bottom: 1px solid $color-border;
+  padding: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.15;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
