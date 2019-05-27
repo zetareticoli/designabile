@@ -1,15 +1,37 @@
-.o-heading {
+.o-canon {
   font-size: 3rem;
+  letter-spacing: -1px;
 
   @media screen and (min-width: 992px){
     font-size: 4rem;    
   }
 }
 
+.o-columbian {
+  font-size: 2.5rem;
+}
+
 .o-lead {
-  font-size: 2rem;
-} 
+  margin-top: 0;
+  font-size: 1.75rem;
+}
+
+.o-pica {
+  font-size: .75rem;
+}
 
 .o-color-primary {
   color: $color-primary;
+}
+
+.o-color-light {
+  color: $md-grey-700;
+}
+
+.o-wrapper {
+  padding: $gutter;
+
+  @include bp(lg) {
+    padding: $gutter * 2;
+  }
 }

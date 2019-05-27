@@ -1,3 +1,11 @@
+.c-hero {
+  min-height: 60vh;
+  padding:  0;
+}
+
+.c-header {
+  padding-top: 2rem;
+}
 
 .c-section {
   display: flex;
@@ -11,4 +19,10 @@
 
 .c-section__item {
   flex: 0 1 50%;
+}
+
+.c-nav__item {
+  margin: 0 1rem;
+  font-weight: 500;
+  color: $color-primary;
 }
