@@ -14,6 +14,10 @@
 .o-lead {
   margin-top: 0;
   font-size: 1.75rem;
+
+  strong {
+    display: block;
+  }
 }
 
 .o-pica {
@@ -25,7 +29,7 @@
 }
 
 .o-color-light {
-  color: $md-grey-700;
+  color: $color-gray;
 }
 
 .o-wrapper {

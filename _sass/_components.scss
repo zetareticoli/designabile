@@ -1,6 +1,12 @@
 .c-hero {
   min-height: 60vh;
-  padding:  0;
+  padding: 0;
+  margin-bottom: 5vw;
+
+  &__photo {
+    width: 100%;
+    margin: 0 -
+  }
 }
 
 .c-header {
@@ -10,6 +16,7 @@
 .c-section {
   display: flex;
   flex-flow: column;
+  border-bottom: 1px solid $color-gray;
 
   @media screen and (min-width: 600px){
     flex-flow: row;

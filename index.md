@@ -5,15 +5,15 @@
 layout: page
 ---
 
-<section class="c-hero">
-    <h1 class="o-canon o-color-primary">Design web experiences</h1>
-    <p class="o-lead"><em>Ciao!</em> I'm Francesco Improta, a web designer, author and teacher. I live and work in Rome, Italy.</p>
+  <section class="c-hero">
+    <p class="o-lead"><strong>Hello!</strong> My name is Francesco Improta. I'm a designer, author, speaker, and dad in real life. I'm currently head of design at Citynews. Previously, I co-founded Robodomain and run my own design studio helping organizations designing digital products for the web.</p>
+    <img class="c-hero__photo" src="/assets/images/designabile-background.jpg" alt="" title=""> 
   </section>
 
   <section class="c-section">
     <h2 class="c-section__item o-columbian">Work I do</h2>
     <p class="c-section__item o-color-light">
-      Help organizations design and build better web experience.
+      Help organizations design and build better web experiences.
       Currently working as Head of Design at Citynews.
     </p>
   </section>
