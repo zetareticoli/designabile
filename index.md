@@ -6,7 +6,7 @@ layout: page
 ---
 
   <section class="c-hero">
-    <p class="o-lead"><strong>Hello!</strong> My name is Francesco Improta. I'm a designer, author, speaker, and dad in real life. I'm currently head of design at Citynews. Previously, I co-founded Robodomain and run my own design studio helping organizations designing digital products for the web.</p>
+    <p class="o-lead"><strong>Hello!</strong> My name is Francesco Improta. I'm a designer, author, speaker and dad in real life. I'm currently head of design at Citynews. Previously, I co-founded Robodomain and my own design studio. Helped a lot of organizations designing digital products for the web.</p>
     <img class="c-hero__photo" src="/assets/images/designabile-background.jpg" alt="" title=""> 
   </section>
 
