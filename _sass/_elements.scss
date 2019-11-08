@@ -1,6 +1,6 @@
 body,
 html {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1;
 }
 
@@ -23,6 +23,7 @@ h6 {
 }
 
 p {
+  margin-top: 0;
   font-size: 1.25rem;
   line-height: 1.5;
 }
@@ -32,26 +33,30 @@ a {
 }
 
 a, a:visited {
-  color: $color-primary;
+  color: $color-text;
   text-decoration: none;
+}
 
-  &::after {
-    background-color: darken($color-primary, 10%);
-    content: '';
-    display: block;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 2px;
-    transition: width .2s ease;
-  }
+p > a {
+  font-weight: 700;
+  text-decoration: underline;
+  // &::after {
+  //   background-color: darken($color-primary, 10%);
+  //   content: '';
+  //   display: block;
+  //   position: absolute;
+  //   bottom: 0;
+  //   left: 0;
+  //   width: 0;
+  //   height: 2px;
+  //   transition: width .2s ease;
+  // }
 }
 
 a:hover {
-  color: darken($color-primary, 10%);
+  color: $color-primary;
+}
 
-  &::after {
-    width: 100%;
-  }
+img {
+  width: 100%;
 }

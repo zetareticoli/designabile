@@ -2,11 +2,6 @@
   min-height: 60vh;
   padding: 0;
   margin-bottom: 5vw;
-
-  &__photo {
-    width: 100%;
-    margin: 0 -
-  }
 }
 
 .c-header {
@@ -17,6 +12,7 @@
   display: flex;
   flex-flow: column;
   border-bottom: 1px solid $color-gray;
+  padding: 2.5vw 0;
 
   @media screen and (min-width: 600px){
     flex-flow: row;
@@ -26,6 +22,7 @@
 
 .c-section__item {
   flex: 0 1 50%;
+  margin-bottom: 1rem;
 }
 
 .c-nav__item {
