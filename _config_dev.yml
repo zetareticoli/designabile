@@ -8,14 +8,13 @@ description:
   meta: Designabile is a blog about design, front-end and making things on the web.
 
   # Description of your site. This will show up on the front page.
-  subtitle: Blog about design, front-end and making stuff on the web. Edited by Francesco Improta.
-
+  subtitle: Blog about design, front-end and making things on the web. Edited by Francesco Improta.
 
 author:
-  name: Dr. Jekyll # Change this!
+  name: Francesco Improta
 
   # Necessary for contact page
-  email: your@email.com # Change this!
+  email: francesco@designabile.com
 
   # Optional text (html) to display after author name. Leave empty if you don't
   # want it.
