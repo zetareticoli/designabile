@@ -1,12 +1,11 @@
-<header>
-  <img class="logo" alt="{{ site.name }}" src="{{ site.logo-image }}">
-  <div class="wrap">
-  <a href="{{ site.baseurl }}/" class="website-title">
-    {{ site.name }}
-  </a>
-  {% include navigation.html %}
-  {% if page.home and site.show-subtitle or page.home and site.display-social-icons %}
-    {% include subtitle.html %}
-  {% endif %}
-  </div>
-</header>
+<div class="wrapper">
+  <header>
+    <a href="{{ site.baseurl }}/" class="website-title">
+      <img class="logo" alt="{{ site.name }}" src="{{ site.logo-image }}">
+    </a>
+    {% include navigation.html %}
+    {% if page.home and site.show-subtitle or page.home and site.display-social-icons %}
+      {% include subtitle.html %}
+    {% endif %}
+  </header>
+</div>
