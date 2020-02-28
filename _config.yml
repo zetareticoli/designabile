@@ -32,6 +32,10 @@ lang: en
 # APPEREANCE #
 ##############
 
+sass:
+  sass_dir: _sass
+  style: compressed
+
 # If you want to show the subtitle anywhere else than the front page, use
 # {% include subtitle.html %} to include it anywhere you want.
 show-subtitle: true
