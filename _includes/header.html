@@ -1,9 +1,8 @@
-<header>
-  <a href="{{ site.baseurl }}/" class="website-title">
-    <img class="logo" alt="{{ site.name }}" src="{{ site.logo-image }}">
-  </a>
-  {% include navigation.html %}
-  {% if page.home and site.show-subtitle or page.home and site.display-social-icons %}
-    {% include subtitle.html %}
-  {% endif %}
-</header>
+<div class="wrapper">
+  <header class="flex">
+    <a href="{{ site.baseurl }}/" class="website-title">
+      <img class="logo" alt="{{ site.name }}" src="{{ site.logo-image }}">
+    </a>
+    {% include navigation.html %}
+  </header>
+</div>
