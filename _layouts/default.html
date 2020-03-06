@@ -4,13 +4,13 @@
 	{% include head.html %}
 </head>
 <body>
+	<div class="wrap">
 	{% if page.cover-image %}
-	<div class="cover-image-container">
-		<img alt="Cover image" src="{{ site.baseurl }}/img/covers/{{ page.cover-image }}">
-	</div>
+		<div class="cover-image-container">
+			<img alt="Cover image" src="{{ site.baseurl }}/img/covers/{{ page.cover-image }}">
+		</div>
 	{% endif %}
 	{% include header.html %}
-	<div class="wrap">
 		{{ content }}
 	  <script>
 	    $("article").fitVids();
@@ -23,7 +23,7 @@
 				}
 	  	});
 	  </script>
-	</div>
 	{% include footer.html %}
+	</div>
 </body>
 </html>
