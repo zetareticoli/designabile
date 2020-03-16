@@ -3,7 +3,7 @@
 <head>
 	{% include head.html %}
 </head>
-<body>
+<body class="page">
 	<div class="wrapper">
 	{% if page.cover-image %}
 		<div class="cover-image-container">
@@ -11,19 +11,24 @@
 		</div>
 	{% endif %}
 	{% include header.html %}
-		{{ content }}
-	  <script>
-	    $("article").fitVids();
-	    $('article p').each(function(i){
-				if (($(this).find('img').length) && (!$.trim($(this).text()).length))  {
-					$(this).addClass('img-only');
-				}
-				if ($.trim($(this).text()).length - $.trim($(this).find('small').text()).length == 0 && ($(this).find('img').length)){
-					$(this).addClass('img-only-source');
-				}
-	  	});
-	  </script>
-	{% include footer.html %}
+	<main>
+		<div class="inner">
+			{{ content }}
+		</div>
+	</main>
+	<!-- <script>
+		$("article").fitVids();
+		$('article p').each(function(i){
+			if (($(this).find('img').length) && (!$.trim($(this).text()).length))  {
+				$(this).addClass('img-only');
+			}
+			if ($.trim($(this).text()).length - $.trim($(this).find('small').text()).length == 0 && ($(this).find('img').length)){
+				$(this).addClass('img-only-source');
+			}
+		});
+	</script> -->
 	</div>
+	{% include footer.html %}
+
 </body>
 </html>

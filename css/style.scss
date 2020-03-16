@@ -23,6 +23,7 @@ body {
   background-color: $ui-background;
   color: $text-01;
   font-size: 16px;
+  font-family: $font;
 }
 
 .lead {
@@ -34,11 +35,7 @@ header {
   display: flex;
   justify-content: space-between;
   margin: 24px 0;
-  @media screen and (min-width: 768px) {
-    margin: 56px 0;
-  }
 }
-
 
 nav {
   position: relative;
@@ -68,4 +65,27 @@ a:hover {
     width: 90vw;
     height: auto;
   }
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.list-none {
+  padding: 0;
+  list-style-type: none;
+}
+
+.link-alpha {
+  color: rgba($color-white, 75%);
+}
+
+.caption {
+  color: $text-02;
+  font-size: $type-small;
 }

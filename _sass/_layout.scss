@@ -1,5 +1,19 @@
+.page {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
 .wrapper {
+  padding: 2vw 5vw;
+  flex: 1;
+}
+
+.inner {
   margin: 0 auto;
-  padding: 5vw;
   max-width: 700px;
+}
+
+footer {
+  background: #080D11;
 }

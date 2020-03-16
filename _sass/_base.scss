@@ -1,5 +1,4 @@
 body {
-  font-family: Roboto, Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: $type-base;
   -webkit-font-smoothing: antialiased;
   font-weight: 400;
@@ -56,7 +55,7 @@ ol {
 }
 
 li {
-  margin: 1.5rem 0;
+  margin: 1rem 0;
   line-height: 1.5;
 }
 
@@ -71,8 +70,7 @@ img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Source Sans Pro", Verdana, sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   background-image: none;
   text-decoration: none !important;
   word-wrap: break-word;
@@ -96,9 +94,9 @@ h3, h4, h5, h6 {
   margin-bottom: 2rem;
 }
 
-
-.fluid-width-video-wrapper {
-  margin: 2rem auto;
+h5 {
+  font-size: $type-small;
+  text-transform: uppercase;
 }
 
 table {

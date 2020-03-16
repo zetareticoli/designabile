@@ -9,3 +9,8 @@ $type-xlarge: 2.5rem;
 $type-large: 2rem;
 $type-medium: 1.25rem;
 $type-base: 16px;
+$type-small: .75rem;
+
+
+$font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font: 'Inter', $font-stack;
