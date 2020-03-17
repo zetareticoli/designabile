@@ -1,15 +1,16 @@
+html, body {
+  height: 100%;
+}
+
 body {
-  font-size: $type-base;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 400;
-  color: $text-01;
   background-color: $ui-background;
   background-repeat: no-repeat;
   background-size: 100%;
-}
-
-html, body {
-  height: 100%;
+  font-size: $type-base;
+  font-family: $font;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  color: $text-01;
 }
 
 p, form {
@@ -31,9 +32,13 @@ i, em {
 }
 
 a {
-  color: inherit;
+  color: $color-accent;
   text-decoration: none;
   position: relative;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .no-cssgradients a {
@@ -204,6 +209,10 @@ hr {
   height: 2px;
 }
 
+nav {
+  position: relative;
+}
+
 nav a {
   color: $color-accent;
   text-decoration: none !important;
@@ -217,3 +226,20 @@ nav a.current {
   color: rgba($text-01, .76)
 }
 
+header {
+  display: flex;
+  margin: 1.5rem 0;
+  display: flex;
+  flex-flow: column;
+
+  @media screen and (min-width: 600px) {
+    flex-flow: row;
+    justify-content: space-between;
+  }
+}
+
+footer {
+  padding-right: 5vw;
+  padding-left: 5vw;
+  background: $color-darker;
+}

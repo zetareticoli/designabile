@@ -39,7 +39,7 @@ lang: en
 show-subtitle: false
 display-social-icons: false
 
-footer-text: Designed with Figma. Powered by <a href="#">Jekyll</a> and <a href="#">Netlify</a>.
+footer-text: Designed with <a href="#" class="link-alt">Figma</a>. Powered by <a class="link-alt" href="#">Jekyll</a> and <a class="link-alt" href="#">Netlify</a>.
 
 # Preferably 64px in height. Leave empty = disable.
 logo-image: /img/logo.svg

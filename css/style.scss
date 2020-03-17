@@ -7,46 +7,9 @@
 @import 'base';
 @import 'layout';
 
-$color-dark: #111a23;
-$color-white: rgb(255,255,255);
-$color-accent: #f1894e;
-$ui-background: $color-dark;
-$ui-border: rgba($color-white, 15%);
-$text-01: $color-white;
-$text-02: rgba($color-white, 40%);
-$type-large: 24px;
-$type-medium: 20px;
-$type-medium: 20px;
-$type-base: 16px;
-
-body {
-  background-color: $ui-background;
-  color: $text-01;
-  font-size: 16px;
-  font-family: $font;
-}
-
 .lead {
-  font-size: $type-large;
+  font-size: $type-medium;
   line-height: 2rem;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  margin: 24px 0;
-}
-
-nav {
-  position: relative;
-}
-
-a {
-  color: $color-accent;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 .full-width {
@@ -81,7 +44,7 @@ a:hover {
   list-style-type: none;
 }
 
-.link-alpha {
+.link-alt {
   color: rgba($color-white, 75%);
 }
 
