@@ -6,49 +6,6 @@
 @import 'settings';
 @import 'base';
 @import 'layout';
-
-.lead {
-  font-size: $type-medium;
-  line-height: 2rem;
-}
-
-.full-width {
-  width: 100%;
-  height: 50vw;
-  position: relative;
-  object-fit: cover;
-  
-  @media screen and (min-width: 768px) {
-    left: 50%;
-    margin-left: -45vw;
-    margin-right: -45vw;
-    max-width: 100vw;
-    position: relative;
-    right: 50%;
-    width: 90vw;
-    height: auto;
-  }
-}
-
-.icon {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
-}
-
-.list-none {
-  padding: 0;
-  list-style-type: none;
-}
-
-.link-alt {
-  color: rgba($color-white, 75%);
-}
-
-.caption {
-  color: $text-02;
-  font-size: $type-small;
-}
+@import 'objects';
+@import 'components';
+@import 'utilities';

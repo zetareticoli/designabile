@@ -15,7 +15,7 @@ body {
 
 p, form {
   line-height: 1.5;
-  margin: 2rem auto;
+  margin: 0 0 1rem;
   word-wrap: break-word;
 }
 
@@ -75,6 +75,7 @@ img {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 1rem;
   font-weight: 700;
   background-image: none;
   text-decoration: none !important;
@@ -88,15 +89,11 @@ h1 {
 }
 
 h2 {
-  font-size: $type-large;
-  margin-top: 2.5rem;
-  margin-bottom: 2rem;
+  font-size: $type-xlarge;
 }
 
 h3, h4, h5, h6 {
   font-size: $type-medium;
-  margin-top: 2.5rem;
-  margin-bottom: 2rem;
 }
 
 h5 {
@@ -209,23 +206,6 @@ hr {
   height: 2px;
 }
 
-nav {
-  position: relative;
-}
-
-nav a {
-  color: $color-accent;
-  text-decoration: none !important;
-}
-
-nav a:hover {
-  color: rgba($text-01,.76);
-}
-
-nav a.current {
-  color: rgba($text-01, .76)
-}
-
 header {
   display: flex;
   margin: 1.5rem 0;
@@ -239,7 +219,6 @@ header {
 }
 
 footer {
-  padding-right: 5vw;
-  padding-left: 5vw;
+  padding: 5vw;
   background: $color-darker;
 }
