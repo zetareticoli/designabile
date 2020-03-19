@@ -83,9 +83,15 @@ paginate: 3
 # Display links for the previous and next post on post pages.
 display-next-prev-post: false
 
-# Leave empty if you don't want comments on post pages.
-disqus-shortname:
-
+navigation:
+- text: About
+  url: /about/
+- text: Blog
+  url: /blog/
+- text: Work
+  url: /work/
+- text: Workshop
+  url: /workshop/
 
 ################
 # SOCIAL ICONS #
