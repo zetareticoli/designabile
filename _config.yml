@@ -32,6 +32,10 @@ lang: en
 # APPEREANCE #
 ##############
 
+sass:
+  sass_dir: _sass
+  style: compressed
+
 # If you want to show the subtitle anywhere else than the front page, use
 # {% include subtitle.html %} to include it anywhere you want.
 show-subtitle: true
@@ -39,7 +43,7 @@ display-social-icons: false
 # If you want social links to open in a new tab, set this as true
 social-icons-open-newtab: true
 
-footer-text: This is the footer.<br><a href="http://stijnvc.github.io/holo-alfa/">Holo Alfa</a> Jekyll theme crafted by <a href="http://stijnvc.github.io/holo-alfa/">Stijn</a>.
+footer-text: Copyright &copy 2021 by Francesco Improta. La tua <a href="/privacy">privacy</a> è importante.
 
 # Preferably 64px in height. Leave empty = disable.
 logo-image: # /img/logo.png
