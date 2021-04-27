@@ -6,6 +6,7 @@
   --lead: 24px;
   --caption: 16px;
   --accent: #4f73ce;
+  --primary: #79f5f6;
   --gutter: 5vw;
 }
 
@@ -100,6 +101,15 @@ strong {
 
 a {
   color: rgb(var(--white));
+  text-decoration-thickness: 2px;
+  text-decoration-color: rgba(var(--white), .35);
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: var(--primary);
+  text-decoration-color: var(--primary);
+  transition: color .2s ease, text-decoration-color .2s ease;
 }
 
 main {
