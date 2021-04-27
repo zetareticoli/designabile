@@ -94,6 +94,10 @@ h1 {
   line-height: 1.25;
 }
 
+strong {
+  color: rgb(var(--white));
+}
+
 a {
   color: rgb(var(--white));
 }
@@ -134,6 +138,12 @@ input[type="submit"] {
   background-color: var(--accent);
   color: rgb(var(--white));
   max-width: 30%;
+  transition: background-color .2s ease;
+}
+
+input[type="submit"]:hover {
+  --accent: #688eee;
+  cursor: pointer;
 }
 
 .sr-only {
@@ -161,7 +171,9 @@ input[type="submit"] {
 .logo-text {
   padding-left: calc(52px - var(--gutter));
 }
-/* 
-@media screen and (min-width: 1024px) {
-  padding-left: 0;
-} */
+
+.gradient {
+  background: -webkit-linear-gradient(#79F5F6, #7FED76);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

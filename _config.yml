@@ -43,7 +43,7 @@ display-social-icons: false
 # If you want social links to open in a new tab, set this as true
 social-icons-open-newtab: true
 
-footer-text: Copyright &copy 2021 by Francesco Improta. La tua privacy è importante.
+footer-text: Copyright &copy 2021 by Francesco Improta. La tua <a href="/privacy">privacy</a> è importante.
 
 # Preferably 64px in height. Leave empty = disable.
 logo-image: # /img/logo.png
