@@ -186,4 +186,5 @@ input[type="submit"]:hover {
   background: -webkit-linear-gradient(#79F5F6, #7FED76);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  white-space: nowrap;
 }
