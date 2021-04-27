@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Thank you
+title: Ottimo!
 ---
 
-Thank you for your message!
+Ti sei iscritta/o alla newsletter. Riceverai la prossima uscita giovedì, direttamente nella tua Inbox. 🥳
