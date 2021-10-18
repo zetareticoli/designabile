@@ -131,11 +131,13 @@ footer {
   border-radius: 10px;
   background-color: var(--blue-dark);
   display: flex;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 740px) {
   .embeddable-buttondown-form {
     padding: 2rem;
+    flex-direction: row;
   }
 }
 
@@ -151,9 +153,15 @@ input {
 input[type="submit"] {
   background-color: var(--accent);
   color: rgb(var(--white));
-  max-width: 30%;
+  
   transition: background-color .2s ease;
   -webkit-appearance: none;
+}
+
+@media screen and (min-width: 740px) {
+  input[type="submit"] {
+    max-width: 30%;
+  }
 }
 
 input[type="submit"]:hover {
